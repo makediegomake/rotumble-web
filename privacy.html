@@ -23,19 +23,23 @@
 <h1>Rotumble: Gravity Puzzle</h1>
 <p class="muted">Privacy policy · Last updated: 8 October 2026</p>
 
-<p>Rotumble is a puzzle game for Android. This page explains what data the game uses and why. The game has no user accounts of its own. If you use the Friends screen, a small profile is stored in Google Firebase, as explained below.</p>
+<p>Rotumble is a puzzle game for Android. This page explains what data the game uses and why. The game has no user accounts of its own. If you use the Friends screen or connect your Google account, some data is stored in Google Firebase, as explained below.</p>
 
 <h2>Data stored on your device</h2>
-<p>Your progress (completed levels, stars, hints, settings, the levels you create and your daily challenge results) is saved only on your phone. Uninstalling the game deletes it.</p>
+<p>Your progress (completed levels, stars, coins, characters, settings, the levels you create and your daily challenge results) is saved on your phone. Uninstalling the game deletes it, unless you have a backup in Google Play Games or in your Google account (see below).</p>
 
 <h2>Google Play Games</h2>
 <p>If you are signed in to Google Play Games, the game uses it to back up your progress to your Google account, to submit your daily challenge time to the leaderboard and to unlock achievements. This data is handled by Google under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. You can manage or delete your Play Games data from your <a href="https://play.google.com/games/profile">Play Games profile</a> or your <a href="https://myaccount.google.com">Google Account</a>.</p>
+
+<h2>Google account (optional)</h2>
+<p>In Settings you can connect your Google account to back up your progress. Google shows you which account you are signing in with, and the game then signs in to Google Firebase (Firebase Authentication) with that account. Firebase Authentication stores your email address and a user ID for it. A copy of your progress (the same data saved on your phone, including the name you chose and your friend code) is stored in Cloud Firestore under that user ID, and only you can read it. We use it only to restore your progress, for example on a new phone. We do not use your email to contact you and we do not share it.</p>
+<p>You can disconnect your Google account in Settings at any time. To delete the saved copy and your account data, go to Settings &gt; Your online data &gt; Delete my data, or follow the steps on the <a href="delete.html">data deletion page</a>.</p>
 
 <h2>Friends (optional)</h2>
 <p>The Friends screen lets you add friends with a short code. Nothing is sent or stored online unless you open it and create your code. To make this work, the game signs in to Google Firebase anonymously: you do not need any account, email or social network, and we do not ask for your real name.</p>
 <p>When you create your code, the game stores in Google Firebase (Cloud Firestore and Firebase Authentication) a profile with: the name you choose, your friend code, your character and accessories, your stars, levels completed, highest level, number of characters, daily challenge streak and times. Anyone who knows your code can see this profile, and your friends see it in their list. When you add a friend, the game also leaves a note in their profile so you appear in their list too. Your list of friends is saved on your phone and in your Google Play Games backup.</p>
 <p>Firebase is provided by Google under the <a href="https://firebase.google.com/support/privacy">Firebase privacy terms</a>.</p>
-<p>To delete your profile and code, go to Settings &gt; Friends &gt; Delete my data, or follow the steps on the <a href="delete.html">data deletion page</a>.</p>
+<p>To delete your profile and code, go to Settings &gt; Your online data &gt; Delete my data, or follow the steps on the <a href="delete.html">data deletion page</a>.</p>
 
 <h2>Ads</h2>
 <p>Hints can be earned by watching an optional rewarded ad. Ads are provided by Google AdMob. To show ads, the Google Mobile Ads SDK collects your device's IP address (which can be used to estimate your general location), your Android advertising ID and similar identifiers, interactions with ads and diagnostic information. Google uses this for advertising, analytics and fraud prevention. More information: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
@@ -57,19 +61,23 @@
 <h1>Rotumble: Gravity Puzzle</h1>
 <p class="muted">Política de privacidad · Última actualización: 8 de octubre de 2026</p>
 
-<p>Rotumble es un juego de puzles para Android. Esta página explica qué datos usa el juego y para qué. El juego no tiene cuentas de usuario propias. Si usas la pantalla Amigos, se guarda un pequeño perfil en Google Firebase, como se explica abajo.</p>
+<p>Rotumble es un juego de puzles para Android. Esta página explica qué datos usa el juego y para qué. El juego no tiene cuentas de usuario propias. Si usas la pantalla Amigos o conectas tu cuenta de Google, se guardan algunos datos en Google Firebase, como se explica abajo.</p>
 
 <h2>Datos guardados en tu móvil</h2>
-<p>Tu progreso (niveles superados, estrellas, pistas, ajustes, los niveles que creas y tus resultados del reto diario) se guarda solo en tu móvil. Si desinstalas el juego, se borra.</p>
+<p>Tu progreso (niveles superados, estrellas, monedas, personajes, ajustes, los niveles que creas y tus resultados del reto diario) se guarda en tu móvil. Si desinstalas el juego, se borra, salvo que tengas una copia en Google Play Juegos o en tu cuenta de Google (ver abajo).</p>
 
 <h2>Google Play Juegos</h2>
 <p>Si tienes sesión iniciada en Google Play Juegos, el juego lo usa para guardar una copia de tu progreso en tu cuenta de Google, enviar tu tiempo del reto diario a la clasificación y desbloquear logros. Google trata estos datos según su <a href="https://policies.google.com/privacy?hl=es">Política de privacidad</a>. Puedes gestionarlos o borrarlos desde tu <a href="https://play.google.com/games/profile">perfil de Play Juegos</a> o tu <a href="https://myaccount.google.com">cuenta de Google</a>.</p>
+
+<h2>Cuenta de Google (opcional)</h2>
+<p>En Ajustes puedes conectar tu cuenta de Google para guardar una copia de tu progreso. Google te muestra con qué cuenta vas a entrar y, después, el juego se conecta con ella a Google Firebase (Firebase Authentication). Firebase Authentication guarda tu dirección de correo y un identificador de usuario de esa cuenta. La copia de tu progreso (los mismos datos que se guardan en tu móvil, incluidos el nombre que elegiste y tu código de amigo) se guarda en Cloud Firestore con ese identificador, y solo tú puedes leerla. La usamos únicamente para recuperar tu progreso, por ejemplo en un móvil nuevo. No usamos tu correo para escribirte ni lo compartimos.</p>
+<p>Puedes desconectar tu cuenta de Google en Ajustes cuando quieras. Para borrar la copia guardada y los datos de tu cuenta, entra en Ajustes &gt; Tus datos en línea &gt; Borrar mis datos, o sigue los pasos de la <a href="delete.html">página de borrado de datos</a>.</p>
 
 <h2>Amigos (opcional)</h2>
 <p>La pantalla Amigos te permite añadir amigos con un código corto. No se envía ni se guarda nada en internet salvo que la abras y crees tu código. Para que funcione, el juego se conecta a Google Firebase de forma anónima: no necesitas cuenta, correo ni red social, y no te pedimos tu nombre real.</p>
 <p>Al crear tu código, el juego guarda en Google Firebase (Cloud Firestore y Firebase Authentication) un perfil con: el nombre que elijas, tu código de amigo, tu personaje y accesorios, tus estrellas, niveles superados, nivel más alto, número de personajes, racha y tiempos del reto diario. Cualquiera que conozca tu código puede ver este perfil, y tus amigos lo ven en su lista. Cuando añades a un amigo, el juego también deja un aviso en su perfil para que tú aparezcas en su lista. Tu lista de amigos se guarda en tu móvil y en tu copia de Google Play Juegos.</p>
 <p>Firebase lo ofrece Google según sus <a href="https://firebase.google.com/support/privacy">condiciones de privacidad de Firebase</a>.</p>
-<p>Para borrar tu perfil y tu código, entra en Ajustes &gt; Amigos &gt; Borrar mis datos, o sigue los pasos de la <a href="delete.html">página de borrado de datos</a>.</p>
+<p>Para borrar tu perfil y tu código, entra en Ajustes &gt; Tus datos en línea &gt; Borrar mis datos, o sigue los pasos de la <a href="delete.html">página de borrado de datos</a>.</p>
 
 <h2>Anuncios</h2>
 <p>Puedes conseguir pistas viendo un anuncio con recompensa, siempre de forma voluntaria. Los anuncios los sirve Google AdMob. Para mostrarlos, el SDK de anuncios de Google recoge la dirección IP del móvil (que puede usarse para estimar tu ubicación aproximada), el ID de publicidad de Android y otros identificadores parecidos, las interacciones con los anuncios e información de diagnóstico. Google lo usa para publicidad, analítica y prevención del fraude. Más información: <a href="https://policies.google.com/technologies/partner-sites?hl=es">Cómo usa Google la información de los sitios web o aplicaciones que utilizan sus servicios</a>.</p>
